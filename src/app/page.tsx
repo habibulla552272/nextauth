@@ -1,10 +1,10 @@
-import Image from "next/image";
-import SignInPage from '@/component/SignInPage'
+
+import LoginPage from "./login/page";
 
 export default function Home() {
   return (
    <main>
-     <SignInPage />
+     <LoginPage/>
    </main>
   );
 }

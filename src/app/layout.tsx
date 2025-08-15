@@ -28,9 +28,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <SessionWrapProvider>
-          {children}
-        </SessionWrapProvider>
+       <SessionWrapProvider>{children}</SessionWrapProvider>
         
       </body>
     </html>
